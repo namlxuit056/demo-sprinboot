@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="nz.net.ultraq.thymeleaf.layout.dialect" type="repository">
+    <properties maven-id="nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.3.0/thymeleaf-layout-dialect-3.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/groovy/groovy/4.0.14/groovy-4.0.14.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/nz/net/ultraq/groovy/groovy-extensions/2.1.0/groovy-extensions-2.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/nz/net/ultraq/thymeleaf/thymeleaf-expression-processor/3.2.0/thymeleaf-expression-processor-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.3.4/ognl-3.3.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

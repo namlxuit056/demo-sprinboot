@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"  type="text/css" th:href="@{/css/index.css}">
+
+</head>
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>THE BOOKS</h2>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li class="active"><a href="#"><i class="fas fa-home"></i> Discover</a></li>
+                <li><a href="#"><i class="fas fa-th-large"></i> Category</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> My Library</a></li>
+                <li><a href="#"><i class="fas fa-download"></i> Download</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Favorite</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Setting</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
+                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Log out</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="main-content">
+        <header class="header">
+            <div class="search-bar">
+                <select>
+                    <option value="all-categories">All Categories</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <input type="text" placeholder="find the book you like...">
+                <button>Search</button>
+            </div>
+            <div class="user-profile">
+                <img src="https://via.placeholder.com/40" alt="User Profile">
+                <span>Davis Workman</span>
+                <i class="fas fa-bell"></i> <!-- Notification Bell Icon -->
+            </div>
+        </header>
+        <section class="book-recommendation">
+            <div class="section-header">
+                <h2>Book Recommendation</h2>
+                <button class="view-all">View All</button>
+            </div>
+            <div class="books">
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Psychology+of+Money" alt="The Psychology of Money">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=Company+of+One" alt="Company of One">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=How+Innovation+Works" alt="How Innovation Works">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Picture+of+Dorian+Gray" alt="The Picture of Dorian Gray">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Psychology+of+Money" alt="The Psychology of Money">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=Company+of+One" alt="Company of One">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=How+Innovation+Works" alt="How Innovation Works">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Picture+of+Dorian+Gray" alt="The Picture of Dorian Gray">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Psychology+of+Money" alt="The Psychology of Money">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=Company+of+One" alt="Company of One">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=How+Innovation+Works" alt="How Innovation Works">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Picture+of+Dorian+Gray" alt="The Picture of Dorian Gray">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Psychology+of+Money" alt="The Psychology of Money">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=Company+of+One" alt="Company of One">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=How+Innovation+Works" alt="How Innovation Works">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Picture+of+Dorian+Gray" alt="The Picture of Dorian Gray">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=The+Psychology+of+Money" alt="The Psychology of Money">
+                </div>
+                <div class="book">
+                    <img src="https://via.placeholder.com/150x220?text=Company+of+One" alt="Company of One">
+                </div>
+
+            </div>
+        </section>
+        <section class="book-category">
+            <h2>Book Category</h2>
+            <div class="categories">
+                <div class="category">
+                    <img src="https://via.placeholder.com/100x150?text=Money/Investing" alt="Money/Investing">
+                    <p>Money/Investing</p>
+                </div>
+                <div class="category">
+                    <img src="https://via.placeholder.com/100x150?text=Design" alt="Design">
+                    <p>Design</p>
+                </div>
+                <div class="category">
+                    <img src="https://via.placeholder.com/100x150?text=Business" alt="Business">
+                    <p>Business</p>
+                </div>
+                <div class="category">
+                    <img src="https://via.placeholder.com/100x150?text=Self+Improvement" alt="Self Improvement">
+                    <p>Self Improvement</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>

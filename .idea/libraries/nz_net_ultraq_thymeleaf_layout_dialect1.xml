@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="nz.net.ultraq.thymeleaf.layout.dialect1" type="repository">
+    <properties maven-id="nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-layout-dialect-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/groovy-4.0.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/groovy-extensions-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-expression-processor-3.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.29.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/attoparser-2.0.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/unbescape-1.1.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

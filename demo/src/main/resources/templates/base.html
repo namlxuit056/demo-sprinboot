@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:insert="~{::title}">Agent</title>
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+<body>
+<!-- Header section -->
+<header th:fragment="header">
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Razor Logo" style="height: 50px;">
+        </div>
+        <nav>
+            <a href="#" class="sign-up">Sign up</a>
+            <a href="#" class="request-demo">Request Demo</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Main content -->
+<main  layout:fragment="main">
+    <div th:insert="~{::main}"></div>
+</main>
+
+<!-- Footer section -->
+<footer th:fragment="footer">
+    <p>&copy; 2024 | <a href="#">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
